@@ -1,0 +1,7 @@
+#!/usr/bin/env php
+<?php
+
+require_once 'autoload.php';
+
+$app = new Format_Checker\Application();
+$app->run();
